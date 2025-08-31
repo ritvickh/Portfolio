@@ -1,0 +1,41 @@
+*{padding:0;  margin:0; box-sizing:border-box}
+body{background-color:#f5f5f5; font-family: "Inter", sans-serif;}
+
+/*Navigation Section*/
+
+nav{background-color:#007ab3; padding:15px; display:flex; justify-content:space-between; align-items:center; position:sticky; top:0; box-shadow:0px 0px 20px black}
+nav p{color:white; text-align:center; font-weight:700; font-size:26px; text-decoration:underline;}
+nav button{background-color:transparent; color:white; padding:8px; border:1px solid white; font-weight:600; border-radius:5px}
+
+/*Home Section*/
+
+.parent{width:100%; display:flex; justify-content:center; align-items:center;}
+.child{width:80%; display:flex; justify-content:center; align-items:center;}
+.home img{border-radius:50%; width:300px; height:300px;}
+.home{width:100%; text-align:center}
+.home-sub{background-color:#007ab3; color:white; width:100%; padding:20px; border-radius:10px; margin-top:10px; margin-bottom:20px}
+.name{font-size:26px; font-weight:700}
+.position{font-size:20px; font-weight:600; color:white; opacity:0.7; margin:20px}
+.contact{background-color:whitesmoke; border:none; border-radius:8px; padding:5px}
+
+/*Intro Section*/
+
+.intro-main{width:100%; display:flex; justify-content:center; align-items:center; margin-bottom:50px}
+.intro-sub{width:80%; background-color:rgba(0,0,0,0.1); padding:20px; border-radius:10px; text-align:center}
+.ins{text-align:center; padding:10px; border-radius:7px; background-color:whitesmoke; margin-bottom:10px; border:1px solid black; text-align:center}
+.p-head{font-size:20px; font-weight:800; text-align:center; margin-bottom:10px}
+.p-para{font-size;16px; font-weight:500;}
+.p-button{background-color:#007ab3; padding:20px; border-radius:10px; margin:20px; width:90%; font-weight:800; color:white}
+
+/*Footer*/
+
+.footer{width:100%; display:flex; justify-content:space-evenly; align-items:center; padding:10px; border-top:1px solid gray; position:fixed; bottom:0; background-color:whitesmoke}
+.footer img{width:30px}
+
+@media screen and (min-width:0px) and (max-width:768px)
+{
+.home img{width:180px; height:180px; margin-top:20px }
+.name{font-size:22px; font-weight:700}
+.position{font-size:16px; font-weight:600;}
+.contact{background-color:whitesmoke; border:none; border-radius:8px; padding:5px}
+}
